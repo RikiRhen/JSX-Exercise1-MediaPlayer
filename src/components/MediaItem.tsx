@@ -2,9 +2,9 @@ import { ReactElement } from "react";
 
 import "./MediaItem.css"
 
-export function MediaItem(media:{image:string, title:string, artist:string}): ReactElement{
+export function MediaItem(media: { image: string, title: string, artist: string, id: string }): ReactElement {
     return (
-        <div className="mediaItem">
+        <div className="mediaItem" id={`media-${media.id}`}>
             <span className="thumbnailImage">
                 <img className="thumbnail" src={media.image} alt="" />
             </span>

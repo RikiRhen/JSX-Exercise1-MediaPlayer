@@ -4,4 +4,8 @@ ul {
     margin: 0;
     max-height: 507px;
     overflow-y: auto;
+
+    & .mediaItem#media-3 {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 }

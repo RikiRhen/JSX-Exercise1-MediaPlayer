@@ -12,11 +12,3 @@ p, h1, .material-symbols-outlined{
     display:flex;
     justify-content: center;
 }
-
-.listSection{
-    margin-right: 2px;
-}
-
-.playerSection{
-    margin-left: 2px;
-}

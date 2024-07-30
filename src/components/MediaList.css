@@ -8,4 +8,13 @@ ul {
     & .mediaItem#media-3 {
         background-color: rgba(0, 0, 0, 0.1);
     }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 3px;
+    }
 }

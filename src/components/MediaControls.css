@@ -12,18 +12,11 @@
 
     & .play {
         font-size: 70px;
+        padding:20px;
     }
 
     & .rewind, .next {
         font-size: 50px;
-    }
-
-    & .repeat {
-        margin-right: 50px;
-    }
-
-    & .shuffle {
-        margin-left: 50px;
     }
 
     & .repeat, .shuffle{

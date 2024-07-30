@@ -1,8 +1,12 @@
 import { ReactElement } from "react";
-
+import { IMedia } from "../interfaces";
 import "./MediaItem.css"
 
-export function MediaItem(media: { image: string, title: string, artist: string, id: string }): ReactElement {
+interface IMediaProps {
+    media: IMedia;
+}
+
+export function MediaItem({ media }: IMediaProps): ReactElement {
     return (
         <div className="mediaItem" id={`media-${media.id}`}>
             <span className="thumbnailImage">

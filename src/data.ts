@@ -9,14 +9,14 @@ import img7 from "./assets/thumbnails/7.jpg";
 import img8 from "./assets/thumbnails/8.jpg";
 
 
-const song1: IMedia = {
+export const song1: IMedia = {
     id: "1",
     artist: "Sabaton",
     title: "Livgardet",
     image: img1
 }
 
-const song2: IMedia = {
+export const song2: IMedia = {
     id: "2",
     artist: "Bad Wolves",
     title: "Zombie",
@@ -30,35 +30,35 @@ export const song3: IMedia = {
     image: img3
 }
 
-const song4: IMedia = {
+export const song4: IMedia = {
     id: "4",
     artist: "BENNETT",
     title: "Vois sur ton chemin",
     image: img4
 }
 
-const song5: IMedia = {
+export const song5: IMedia = {
     id: "5",
     artist: "Paradelous",
     title: "Power Slam",
     image: img5
 }
 
-const song6: IMedia = {
+export const song6: IMedia = {
     id: "6",
     artist: "Disturbed",
     title: "Sound of Silence",
     image: img6
 }
 
-const song7: IMedia = {
+export const song7: IMedia = {
     id: "7",
     artist: "Akon ft. Eminem & Kriminal",
     title: "Smack that",
     image: img7
 }
 
-const song8: IMedia = {
+export const song8: IMedia = {
     id: "8",
     artist: "Ummet Ozcan",
     title: "Xanadu",

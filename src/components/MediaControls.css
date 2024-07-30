@@ -1,0 +1,33 @@
+.mediaControls {
+    width: 424px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .mainButtons {
+        display: flex;
+        align-items: center;
+    }
+
+    & .play {
+        font-size: 70px;
+    }
+
+    & .rewind, .next {
+        font-size: 50px;
+    }
+
+    & .repeat {
+        margin-right: 50px;
+    }
+
+    & .shuffle {
+        margin-left: 50px;
+    }
+
+    & .repeat, .shuffle{
+        padding: 20px;
+    }
+
+}

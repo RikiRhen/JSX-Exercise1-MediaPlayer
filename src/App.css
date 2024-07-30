@@ -1,0 +1,22 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 60, 97);
+    max-width: fit-content;
+}
+
+p, h1, .material-symbols-outlined{
+    color: whitesmoke;
+}
+.appBody{
+    display:flex;
+    justify-content: center;
+}
+
+.listSection{
+    margin-right: 2px;
+}
+
+.playerSection{
+    margin-left: 2px;
+}
